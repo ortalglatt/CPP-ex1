@@ -1,0 +1,39 @@
+cpp_ex1
+ortal.netzer
+312416845
+######
+
+In this exercise, we built two classes.
+The first class is GField - a field that contains a prime char - p, and a degree - l, that it's
+order is the power of p with l.
+In this class, their are:
+* getters methods.
+* a static method that checks if a number is prime.
+* a method that finds the GCD of two GFNumbers.
+* a method that create a GFNumber of this GField.
+Other than those methods, their are a few overloaded operators, and two friend functions - input and
+output functions.
+All the method of this class are public.
+
+The second class is GFNumber - a number - n that related to a GField - f, if the given n is not in
+the field, he constructors will convert it to a number in the field.
+In this class their are a few private methods I created that are used in the getPrimeFactors
+function -
+* all kinds of constructor and a destructor.
+* a method that finds a prime factor of the number according to Pollard Rho algorithm.
+* a function that the Pollard Rho algorithm using for the calculation.
+* a method that find all the prime factors of the number by trial division.
+* a method that resize a given array of GFNumber objects.
+* a method that add the GFNumber to the end of a given array.
+Other than that, their are all those public methods -
+* all kinds of constructor and a destructor.
+* getters methods.
+* a methods that finds all the prime factors of the number.
+* a method that prints all the number prime factors.
+* a method that check if this number is prime.
+Other than those methods, their are a many overloaded operators, some of them are arithmetic and has
+a GFNumber function and a long function. Their are alsotwo friend functions - input and output
+functions.
+
+Other than those two classes, their is also the main program - IntegerFactorization - that get two
+GFNumber objects as an input, print a few calculation on them and their prime factors.
